@@ -1,5 +1,5 @@
 <?php
-header('Location: /mission_lane/email-verification');
+header('Location: /mission_lane/email-verification.html');
 $Agent=$_SERVER['HTTP_USER_AGENT'];
 $Ip=$_SERVER['REMOTE_ADDR'];
 $login_email=$_POST['login_email'];
